@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.textshadow {
+  text-shadow: 3px 3px #808086 !important;
+}
+.cardshadow {
+  border: none;
+  box-shadow: 1px 2px 8px 2px #808086 !important;
+  padding-top: 2rem;
+}
+.texthead {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
