@@ -11,8 +11,8 @@ export default class Focus extends Component {
         <p className="">MY FOCUS</p>
         <hr></hr>
         <div className="p-2 text-start ">
-          {list.map((l) => (
-            <p>{l}</p>
+          {list.map((l, i) => (
+            <p key={i}>{l}</p>
           ))}
         </div>
       </div>

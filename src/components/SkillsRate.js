@@ -6,8 +6,8 @@ export default class SkillsRate extends Component {
     const { styling, list } = this.props;
     return (
       <div className={"text-left m-auto " + styling}>
-        {list.map((l) => (
-          <ProgressBar title={l.title} rate={l.rate} />
+        {list.map((l, i) => (
+          <ProgressBar key={i} title={l.title} rate={l.rate} />
         ))}
       </div>
     );
